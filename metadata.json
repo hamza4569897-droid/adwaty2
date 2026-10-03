@@ -1,0 +1,8 @@
+{
+  "name": "Remix أدواتي - أدوات PDF وصور مجانية",
+  "description": "أدوات PDF وصور مجانية بدون رفع ملفات. دمج، تقسيم، تحويل، وضغط الملفات مباشرة في متصفحك بأمان وخصوصية 100%.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

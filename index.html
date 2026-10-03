@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>أدواتي - أدوات PDF وصور مجانية</title>
+    <meta name="description" content="أدوات PDF وصور مجانية بدون رفع ملفات. دمج، تقسيم، تحويل، وضغط الملفات مباشرة في متصفحك بأمان وخصوصية 100%." />
+    
+    <!-- OpenGraph & Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="أدواتي - أدوات PDF وصور مجانية" />
+    <meta property="og:description" content="أدوات PDF وصور مجانية بدون رفع ملفات. دمج، تقسيم، تحويل، وضغط الملفات مباشرة في متصفحك بأمان وخصوصية 100%." />
+    <meta property="og:site_name" content="أدواتي" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="أدواتي - أدوات PDF وصور مجانية" />
+    <meta name="twitter:description" content="أدوات PDF وصور مجانية بدون رفع ملفات، ملفاتك لا تغادر جهازك." />
+    
+    <!-- Early Theme Detection to prevent theme flashing -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('adawaty_theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Google Fonts: Cairo (Arabic) & Inter (English/Latin) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Google AdSense Placeholder (Uncomment when account is ready) -->
+    <!--
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+      crossorigin="anonymous"></script>
+    -->
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "أدواتي (Adawaty)",
+      "url": "https://adawaty.app",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "description": "أدوات PDF وصور مجانية تعمل 100% داخل المتصفح بدون رفع ملفات لأي خادم. دمج، تقسيم، ضغط، وتحويل بأمان وخصوصية تامة.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "دمج ملفات PDF (Merge PDF)",
+        "تقسيم واستخراج صفحات PDF (Split PDF)",
+        "تحويل الصور إلى PDF (Images to PDF)",
+        "ضغط الصور (Compress Images)",
+        "تغيير حجم الصور (Resize Images)",
+        "تحويل صيغ الصور (Convert Images)",
+        "تدوير صفحات PDF (Rotate PDF)",
+        "حذف صفحات PDF (Delete PDF Pages)",
+        "تحويل PDF إلى صور (PDF to Images)",
+        "عداد الكلمات والحروف (Word & Character Counter)",
+        "تحويل الأرقام إلى كلمات وتفقيط (Number to Arabic Words)"
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 min-h-screen transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

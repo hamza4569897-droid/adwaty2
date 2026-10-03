@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Subtle glow circles -->
+  <circle cx="200" cy="150" r="300" fill="#2563eb" fill-opacity="0.15" filter="blur(60px)" />
+  <circle cx="1000" cy="480" r="350" fill="#0284c7" fill-opacity="0.15" filter="blur(70px)" />
+
+  <!-- Center Card -->
+  <rect x="80" y="80" width="1040" height="470" rx="36" fill="url(#cardGrad)" stroke="#334155" stroke-width="2" />
+
+  <!-- Brand Icon -->
+  <g transform="translate(930, 130)">
+    <rect width="110" height="110" rx="28" fill="#2563eb" />
+    <path d="M55 24L28 38L55 52L82 38L55 24Z" fill="white" />
+    <path d="M28 48L55 62L82 48" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M28 62L55 76L82 62" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Arabic Typography -->
+  <text x="890" y="200" text-anchor="end" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="70" letter-spacing="-1">أدواتي</text>
+  <text x="890" y="270" text-anchor="end" fill="url(#accentGrad)" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="34">أدوات رقمية مجانية 100% داخل المتصفح</text>
+
+  <text x="890" y="340" text-anchor="end" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="24">دمج وتقسيم PDF • ضغط وتحويل الصور • أدوات النصوص • حاسبات مالية متطورة</text>
+
+  <!-- Privacy Guarantee Pill -->
+  <g transform="translate(560, 410)">
+    <rect width="480" height="60" rx="30" fill="#064e3b" stroke="#10b981" stroke-width="1.5" />
+    <text x="240" y="38" text-anchor="middle" fill="#6ee7b7" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="20">🔒 حماية وخصوصية 100% — لا يتم رفع أي ملف لخوادمنا</text>
+  </g>
+</svg>

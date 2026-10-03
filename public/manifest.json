@@ -1,0 +1,25 @@
+{
+  "name": "أدواتي - أدوات رقمية مجانية",
+  "short_name": "أدواتي",
+  "description": "أدوات PDF وصور ونصوص وحاسبات مالية مجانية تعمل مباشرة داخل متصفحك دون رفع ملفات لأي خادم.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
