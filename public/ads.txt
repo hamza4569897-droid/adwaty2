@@ -1,5 +1,5 @@
-# Google AdSense ads.txt
-# Replace the line below with your authorized seller ID once AdSense approves your account:
-# Example: google.com,
 google.com, pub-2532434247374799
 , DIRECT, f08c47fec0942fa0
+
+
+
